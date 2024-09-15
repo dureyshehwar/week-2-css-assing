@@ -1,0 +1,103 @@
+html{
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(180deg, 
+  #84daf5,
+  #89ffff,
+  #afffff,
+  #ffffff,
+  );
+}
+  body{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;margin-right: 5rem;
+
+}
+
+h1{
+  text-align: center;
+  filter: drop-shadow(2px 2px 1px #52612f);
+  font-size:40px;
+}
+  h2{
+    margin:4rem auto,rem auto;
+    text-align:left;
+  }
+    
+p, li{
+  font-size: 20px;
+}
+ol{
+  padding: 20px;
+}
+ol li{
+  padding: 10px ;
+}
+
+img{
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 1rem;
+  margin: 2rem;
+} 
+
+
+figcaption{
+  text-align: center;
+  font-weight:bold ;
+  color:rgb(0,58,66) ;
+  
+}
+footer{
+  margin:2rem 0 2rem 0;
+  text-align: center;
+  color:black;
+}
+
+/*.......custom class name selectors..........*/
+
+.banner-div{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.images-div{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.To-do-div {
+max-width: 800px;
+margin: 1rem auto;
+color:rgb(144, 30, 30);
+padding: 1rem 2rem;
+background-color: rgba(24, 58, 24, 0.51);
+border-radius:5rem ;
+}
+
+@media only screen and (max-width: 1000px){
+  .img-div img{
+    width: 420px;
+  }
+}
+@media only screen and (max-width: 1100px){
+  .To-do-div{
+    flex-wrap: wrap;
+    justify-content:center; 
+  }
+}
+
+@media only screen and (max-width: 500px)
+  
+body {
+    margin: 1rem;
+  }
+  p, li{
+    font-size: 16px;
+  }
+  .img-div img{
+    width: 230px;
+  }
+  .To-do-div img{
+    width: 230px;
+  }
